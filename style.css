@@ -1,0 +1,61 @@
+*{
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+.contenoer{
+display: flex;
+justify-content: space-between;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+   .box{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+   }
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .box{
+        width: 70px;
+        height: 70px;
+        background-color: pink;
+       }
+    
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .box{
+        width: 120px;
+        height: 120px;
+        background-color: aqua;
+       }
+    
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 190px) and (max-width: 335px) {
+    .box{
+        width: 170px;
+        height: 170px;
+        background-color: blue;
+       }
+    
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+   
+}
